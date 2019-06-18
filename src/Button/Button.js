@@ -71,10 +71,6 @@ Button.propTypes = {
     "text",
     "outlined",
     "contained",
-    "fab",
-    "extendedFab",
-    "flat",
-    "raised"
   ])
 };
 

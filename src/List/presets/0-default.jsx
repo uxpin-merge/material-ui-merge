@@ -12,7 +12,7 @@ export default (
   <List subheader={<ListSubheader uxpId="1.3">Settings</ListSubheader>} uxpId="1">
     <ListItem uxpId="1.1">
       <ListItemIcon uxpId="1.1.1">
-        <Icon uxpId="1.1.1.1">wifi</Icon>
+        <Icon edge uxpId="1.1.1.1">wifi</Icon>
       </ListItemIcon>
       <ListItemText uxpId="1.1.2" primary="Wi-Fi" />
       <ListItemSecondaryAction uxpId="1.1.3">
@@ -21,7 +21,7 @@ export default (
     </ListItem>
     <ListItem uxpId="1.2">
       <ListItemIcon uxpId="1.2.1">
-        <Icon uxpId="1.2.1.1">bluetooth</Icon>
+        <Icon edge uxpId="1.2.1.1">bluetooth</Icon>
       </ListItemIcon>
       <ListItemText uxpId="1.2.2" primary="Bluetooth" />
       <ListItemSecondaryAction uxpId="1.2.3">

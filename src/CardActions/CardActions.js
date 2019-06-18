@@ -22,7 +22,7 @@ CardActions.propTypes = {
   /**
    * If `true`, the card actions do not have additional margin.
    */
-  disableActionSpacing: PropTypes.bool
+  disableSpacing: PropTypes.bool
 };
 
 export { CardActions as default };

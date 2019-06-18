@@ -32,7 +32,7 @@ Typography.propTypes = {
    * The color of the component. It supports those theme colors that make sense for this component.
    */
   color: PropTypes.oneOf([
-    "default",
+    "initial",
     "error",
     "inherit",
     "primary",
@@ -40,6 +40,11 @@ Typography.propTypes = {
     "textPrimary",
     "textSecondary"
   ]),
+
+ /**
+   * Controls the display type
+   */
+  display: PropTypes.oneOf(['initial', 'block', 'inline']),
 
   /**
    * If `true`, the text will have a bottom margin.
@@ -90,13 +95,6 @@ Typography.propTypes = {
     "overline",
     "srOnly",
     "inherit",
-    "display4",
-    "display3",
-    "display2",
-    "display1",
-    "headline",
-    "title",
-    "subheading"
   ])
 };
 
