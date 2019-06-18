@@ -41,7 +41,7 @@ If you wish to push RMWC components to your UXPin account or set-up a continues 
 | Chip | [Chip](https://material-ui.com/demos/chips/) | ✅ Full Support |
 | Dialog | [Dialog](https://material-ui.com/demos/dialogs/) | 🔻 Not Supported. Issues with absolutely positioned elements.|
 | Divider | [List Divider](https://material-ui.com/demos/dividers/) | ✅ Full Support |
-| Drawer | [Drawer](https://material-ui.com/demos/drawers/) | ✅ Full Support. Experimental 😷. |
+| Drawer | [Drawer](https://material-ui.com/demos/drawers/) | 🔻 Not Supported. Unknown issue. |
 | ExpansionPanel | [https://material-ui.com/demos/expansion-panels/) | 🔻 Not Supported. Unknown issue. |
 | GridList | [GridList](https://material-ui.com/demos/grid-list/) | ✅ Full Support |
 | Icon | – | ✅ Full Support |
@@ -59,9 +59,9 @@ If you wish to push RMWC components to your UXPin account or set-up a continues 
 | FormGroup | [Selection Controls](https://material-ui.com/demos/selection-controls/) | ✅ Full Support |
 | FormLabel | [Selection Controls](https://material-ui.com/demos/selection-controls/) | ✅ Full Support |
 | Select | [Select](https://material-ui.com/demos/selects/) | ✅ Full Support |
-| Snackbar | [Snackbar](https://material-ui.com/demos/steppers/) | Not supported yet |
-| Stepper | [Stepper](https://material-ui.com/demos/snackbars/) | ✅ Full Support. Experimental 😷. |
-| Table | [Table](https://material-ui.com/demos/tables/) | Not supported yet |
+| Snackbar | [Snackbar](https://material-ui.com/demos/steppers/) | 🔻 Not supported yet |
+| Stepper | [Stepper](https://material-ui.com/demos/snackbars/) | 🔻 Not Supported yet |
+| Table | [Table](https://material-ui.com/demos/tables/) | 🔻 Not Supported yet |
 | Tabs | [Tabs](https://material-ui.com/demos/tabs/) | ✅ Full Support |
 | TextField | [TextFields](https://material-ui.com/demos/text-fields/) | ✅ Full Support |
 
