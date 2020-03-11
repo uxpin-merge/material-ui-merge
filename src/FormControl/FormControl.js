@@ -8,22 +8,26 @@ function FormControl(props) {
 
 FormControl.propTypes = {
   /**
+   * @uxpinignoreprop 
    * The contents of the form control.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object.isRequired,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   className: PropTypes.string,
 
   /**
+   * @uxpinignoreprop 
    * The component used for the root node.
    * Either a string to use a DOM element or a component.
    */

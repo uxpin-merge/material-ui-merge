@@ -8,17 +8,20 @@ function ExpansionPanelDetails(props) {
 
 ExpansionPanelDetails.propTypes = {
   /**
+   * @uxpinignoreprop 
    * The content of the expansion panel details.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   className: PropTypes.string

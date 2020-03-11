@@ -24,6 +24,7 @@ Typography.propTypes = {
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
@@ -52,6 +53,7 @@ Typography.propTypes = {
   gutterBottom: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop
    * We are empirically mapping the variant property to a range of different DOM element types.
    * For instance, subtitle1 to `<h6>`.
    * If you wish to change that mapping, you can provide your own.

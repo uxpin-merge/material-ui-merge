@@ -8,12 +8,14 @@ function LinearProgress(props) {
 
 LinearProgress.propTypes = {
  /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   className: PropTypes.string,

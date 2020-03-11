@@ -8,11 +8,13 @@ function RadioGroup(props) {
 
 RadioGroup.propTypes = {
   /**
+   * @uxpinignoreprop
    * The content of the component.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop
    * The name used to reference the value of the control.
    */
   name: PropTypes.string,
@@ -37,6 +39,7 @@ RadioGroup.propTypes = {
   onKeyDown: PropTypes.func,
 
   /**
+   * @uxpinignoreprop
    * Value of the selected RadioGroup button.
    */
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool])

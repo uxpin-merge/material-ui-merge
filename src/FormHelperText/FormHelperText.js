@@ -8,22 +8,26 @@ function FormHelperText(props) {
 
 FormHelperText.propTypes = {
   /**
+   * @uxpinignoreprop 
    * The content of the component.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object.isRequired,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   className: PropTypes.string,
 
   /**
+   * @uxpinignoreprop 
    * The component used for the root node.
    * Either a string to use a DOM element or a component.
    */
@@ -56,6 +60,7 @@ FormHelperText.propTypes = {
   margin: PropTypes.oneOf(["dense"]),
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   muiFormControl: PropTypes.object,

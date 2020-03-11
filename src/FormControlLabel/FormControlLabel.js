@@ -13,12 +13,14 @@ FormControlLabel.propTypes = {
   checked: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object.isRequired,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   className: PropTypes.string,
@@ -34,6 +36,7 @@ FormControlLabel.propTypes = {
   disabled: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop 
    * Use that property to pass a ref callback to the native input component.
    */
   inputRef: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
@@ -49,6 +52,7 @@ FormControlLabel.propTypes = {
   labelPlacement: PropTypes.oneOf(['end', 'start', 'top', 'bottom']),
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   muiFormControl: PropTypes.object,
@@ -68,6 +72,7 @@ FormControlLabel.propTypes = {
   onChange: PropTypes.func,
 
   /**
+   * @uxpinignoreprop 
    * The value of the component.
    */
   value: PropTypes.string

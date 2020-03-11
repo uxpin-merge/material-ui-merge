@@ -8,14 +8,18 @@ function Icon(props) {
 
 Icon.propTypes = {
   /**
+   * @uxpincontroltype input
    * The name of the icon font ligature.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
+
+  /** @uxpinignoreprop  */
   className: PropTypes.string,
 
   /**

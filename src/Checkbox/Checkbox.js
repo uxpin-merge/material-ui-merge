@@ -13,11 +13,13 @@ Checkbox.propTypes = {
   checked: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop 
    * The icon to display when the component is checked.
    */
   checkedIcon: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
@@ -38,16 +40,19 @@ Checkbox.propTypes = {
   disableRipple: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop 
    * The icon to display when the component is unchecked.
    */
   icon: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * The id of the `input` element.
    */
   id: PropTypes.string,
 
   /**
+   * @uxpinignoreprop 
    * If `true`, the component appears indeterminate.
    * This does not set the native input element to indeterminate due
    * to inconsistent behavior across browsers.
@@ -61,11 +66,13 @@ Checkbox.propTypes = {
   indeterminateIcon: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Properties applied to the `input` element.
    */
   inputProps: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * Use that property to pass a ref callback to the native input component.
    */
   inputRef: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
@@ -76,6 +83,7 @@ Checkbox.propTypes = {
   onChange: PropTypes.func,
 
   /**
+   * @uxpinignoreprop 
    * The input component property `type`.
    */
   type: PropTypes.string,

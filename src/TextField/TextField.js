@@ -8,6 +8,7 @@ function TextField(props) {
 
 TextField.propTypes = {
   /**
+   * @uxpinignoreprop
    * This property helps users to fill forms faster, especially on mobile devices.
    * The name can be confusing, as it's more like an autofill.
    * You can learn more about it here:
@@ -20,8 +21,10 @@ TextField.propTypes = {
    */
   autoFocus: PropTypes.bool,
 
+  /** @uxpinignoreprop */
   children: PropTypes.node,
 
+  /** @uxpinignoreprop */
   className: PropTypes.string,
 
   /**
@@ -42,6 +45,7 @@ TextField.propTypes = {
    */
   error: PropTypes.bool,
 
+  /** @uxpinignoreprop */
   FormHelperTextProps: PropTypes.object,
 
   /**
@@ -55,24 +59,29 @@ TextField.propTypes = {
   helperText: PropTypes.node,
 
   /**
+   * @uxpinignoreprop
    * The id of the `input` element.
    * Use that property to make `label` and `helperText` accessible for screen readers.
    */
   id: PropTypes.string,
 
+  /** @uxpinignoreprop */
   InputLabelProps: PropTypes.object,
 
   /**
+   * @uxpinignoreprop
    * Properties applied to the `Input` element.
    */
   InputProps: PropTypes.object,
 
   /**
+   * @uxpinignoreprop
    * Attributes applied to the native `input` element.
    */
   inputProps: PropTypes.object,
 
   /**
+   * @uxpinignoreprop
    * Use that property to pass a ref callback to the native input component.
    */
   inputRef: PropTypes.oneOfType([
@@ -96,6 +105,7 @@ TextField.propTypes = {
   multiline: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop
    * Name attribute of the `input` element.
    */
   name: PropTypes.string,
@@ -136,14 +146,17 @@ TextField.propTypes = {
   ]),
 
   /**
+   * @uxpinignoreprop
    * Render a `Select` element while passing the `Input` element to `Select` as `input` parameter.
    * If this option is set you must pass the options of the select as children.
    */
   select: PropTypes.bool,
 
+  /** @uxpinignoreprop */
   SelectProps: PropTypes.object,
 
   /**
+   * @uxpinignoreprop
    * Type attribute of the `Input` element. It should be a valid HTML5 input type.
    */
   type: PropTypes.string,

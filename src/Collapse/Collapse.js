@@ -8,17 +8,20 @@ function Collapse(props) {
 
 Collapse.propTypes = {
  /**
+   * @uxpinignoreprop 
    * The content node to be collapsed.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   className: PropTypes.string,
@@ -65,11 +68,13 @@ Collapse.propTypes = {
   onExiting: PropTypes.func,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   style: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   theme: PropTypes.object,

@@ -8,17 +8,20 @@ function InputLabel(props) {
 
 InputLabel.propTypes = {
   /**
+   * @uxpinignoreprop 
    * The contents of the `InputLabel`.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object.isRequired,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   className: PropTypes.string,
@@ -44,6 +47,7 @@ InputLabel.propTypes = {
   focused: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop 
    * `classes` property applied to the [`FormLabel`](/api/form-label/) element.
    */
   FormLabelClasses: PropTypes.object,
@@ -55,6 +59,7 @@ InputLabel.propTypes = {
   margin: PropTypes.oneOf(["dense"]),
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   muiFormControl: PropTypes.object,

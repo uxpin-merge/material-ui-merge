@@ -8,6 +8,7 @@ function Backdrop(props) {
 
 Backdrop.propTypes = {
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,

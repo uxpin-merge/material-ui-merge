@@ -13,11 +13,13 @@ Switch.propTypes = {
   checked: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop
    * The icon to display when the component is checked.
    */
   checkedIcon: PropTypes.node,
 
   /**
+   * @uxpinignoreprop
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
@@ -40,21 +42,25 @@ Switch.propTypes = {
   disableRipple: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop
    * The icon to display when the component is unchecked.
    */
   icon: PropTypes.node,
 
   /**
+   * @uxpinignoreprop
    * The id of the `input` element.
    */
   id: PropTypes.string,
 
   /**
+   * @uxpinignoreprop
    * Attributes applied to the `input` element.
    */
   inputProps: PropTypes.object,
 
   /**
+   * @uxpinignoreprop
    * Use that property to pass a ref callback to the native input component.
    */
   inputRef: PropTypes.oneOfType([
@@ -68,11 +74,13 @@ Switch.propTypes = {
   onChange: PropTypes.func,
 
   /**
+   * @uxpinignoreprop
    * The input component property `type`.
    */
   type: PropTypes.string,
 
   /**
+   * @uxpinignoreprop
    * The value of the component.
    */
   value: PropTypes.oneOfType([

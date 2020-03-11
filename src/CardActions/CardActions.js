@@ -12,10 +12,12 @@ function CardActions(props) {
 
 CardActions.propTypes = {
   /**
+   * @uxpinignoreprop 
    * The content of the component.
    */
   children: PropTypes.node,
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,

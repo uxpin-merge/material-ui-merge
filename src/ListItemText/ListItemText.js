@@ -13,12 +13,14 @@ ListItemText.propTypes = {
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   className: PropTypes.string,
@@ -60,6 +62,7 @@ ListItemText.propTypes = {
   secondaryTypographyProps: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   theme: PropTypes.object

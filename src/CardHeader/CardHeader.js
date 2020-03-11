@@ -20,6 +20,7 @@ CardHeader.propTypes = {
   avatar: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,

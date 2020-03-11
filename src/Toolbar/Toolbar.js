@@ -8,17 +8,20 @@ function Toolbar(props) {
 
 Toolbar.propTypes = {
   /**
+   * @uxpinignoreprop
    * Toolbar children, usually a mixture of `IconButton`, `Button` and `Typography`.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object,
 
   /**
+   * @uxpinignoreprop
    * @ignore
    */
   className: PropTypes.string,

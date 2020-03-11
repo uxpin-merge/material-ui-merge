@@ -13,6 +13,7 @@ Chip.propTypes = {
   avatar: PropTypes.element,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,

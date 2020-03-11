@@ -8,19 +8,19 @@ function Radio(props) {
 
 Radio.propTypes = {
   /**
+   * @uxpincontroltype switcher
    * If `true`, the component is checked.
    */
-  checked: PropTypes.oneOfType([
-    PropTypes.bool,
-    PropTypes.string
-  ]),
+  checked: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop
    * The icon to display when the component is checked.
    */
   checkedIcon: PropTypes.node,
 
   /**
+   * @uxpinignoreprop
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
@@ -47,16 +47,19 @@ Radio.propTypes = {
   icon: PropTypes.node,
 
   /**
+   * @uxpinignoreprop
    * The id of the `input` element.
    */
   id: PropTypes.string,
 
   /**
+   * @uxpinignoreprop
    * Attributes applied to the `input` element.
    */
   inputProps: PropTypes.object,
 
   /**
+   * @uxpinignoreprop
    * Use that property to pass a ref callback to the native input component.
    */
   inputRef: PropTypes.oneOfType([
@@ -74,11 +77,13 @@ Radio.propTypes = {
   onChange: PropTypes.func,
 
   /**
+   * @uxpinignoreprop
    * The input component property `type`.
    */
   type: PropTypes.string,
 
   /**
+   * @uxpinignoreprop
    * The value of the component.
    */
   value: PropTypes.oneOfType([

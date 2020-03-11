@@ -17,9 +17,12 @@ Button.propTypes = {
    */
   children: PropTypes.node,
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
+
+  /** @uxpinignoreprop  */
   className: PropTypes.string,
 
   /**
@@ -39,12 +42,15 @@ Button.propTypes = {
    * If `true`, the ripple effect will be disabled.
    */
   disableRipple: PropTypes.bool,
+  
+  /** @uxpinignoreprop  */
   focusVisibleClassName: PropTypes.string,
   /**
    * If `true`, the button will take up the full width of its container.
    */
   fullWidth: PropTypes.bool,
   /**
+   * @uxpinignoreprop 
    * The URL to link to when the button is clicked.
    * If defined, an `a` element will be used as the root node.
    */
@@ -58,6 +64,8 @@ Button.propTypes = {
    * `small` is equivalent to the dense button styling.
    */
   size: PropTypes.oneOf(["small", "medium", "large"]),
+
+  /** @uxpinignoreprop  */
   type: PropTypes.string,
 
   /**

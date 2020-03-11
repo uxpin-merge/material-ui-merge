@@ -8,16 +8,19 @@ function MenuItem(props) {
 
 MenuItem.propTypes = {
   /**
+   * @uxpinignoreprop 
    * Menu item contents.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * The component used for the root node.
    * Either a string to use a DOM element or a component.
    */
@@ -31,7 +34,9 @@ MenuItem.propTypes = {
   role: PropTypes.string,
 
   selected: PropTypes.bool,
-
+  /**
+   * @uxpinignoreprop 
+   */
   value: PropTypes.string,
   onClick: PropTypes.func
 };

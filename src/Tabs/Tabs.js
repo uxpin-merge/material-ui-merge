@@ -45,22 +45,26 @@ Tabs.propTypes = {
   centered: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop
    * The content of the component.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object,
 
   /**
+   * @uxpinignoreprop
    * @ignore
    */
   className: PropTypes.string,
 
   /**
+   * @uxpinignoreprop
    * The component used for the root node.
    * Either a string to use a DOM element or a component.
    */
@@ -92,6 +96,7 @@ Tabs.propTypes = {
   scrollable: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop
    * The component used to render the scroll buttons.
    */
   ScrollButtonComponent: PropTypes.node,
@@ -105,6 +110,7 @@ Tabs.propTypes = {
   scrollButtons: PropTypes.oneOf(['auto', 'on', 'off']),
 
   /**
+   * @uxpinignoreprop
    * Properties applied to the `TabsIndicator` element.
    */
   TabsIndicatorProps: PropTypes.object,
@@ -115,6 +121,7 @@ Tabs.propTypes = {
   textColor: PropTypes.oneOf(['secondary', 'primary', 'inherit']),
 
   /**
+   * @uxpinignoreprop
    * @ignore
    */
   theme: PropTypes.object,
