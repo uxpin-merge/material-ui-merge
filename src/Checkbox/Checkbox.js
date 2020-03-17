@@ -52,7 +52,6 @@ Checkbox.propTypes = {
   id: PropTypes.string,
 
   /**
-   * @uxpinignoreprop 
    * If `true`, the component appears indeterminate.
    * This does not set the native input element to indeterminate due
    * to inconsistent behavior across browsers.
@@ -61,6 +60,7 @@ Checkbox.propTypes = {
   indeterminate: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop 
    * The icon to display when the component is indeterminate.
    */
   indeterminateIcon: PropTypes.node,

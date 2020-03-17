@@ -25,7 +25,6 @@ module.exports = {
           "src/Tabs/Tabs.js",
           "src/TabsContainer/TabsContainer.js",
           "src/TabsContainer/TabContent/TabContent.js",
-          "src/Drawer/Drawer.js"
         ]
       },
       {
@@ -111,6 +110,7 @@ module.exports = {
 
 /**
  * Currently not supported:
+ * 'src/Drawer/Drawer.js',
  * 'src/Menu/Menu.js',
  * 'src/ExpansionPanel/ExpansionPanel.js',
  * 'src/ExpansionPanelActions/ExpansionPanelActions.js',

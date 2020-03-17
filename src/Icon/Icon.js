@@ -8,7 +8,6 @@ function Icon(props) {
 
 Icon.propTypes = {
   /**
-   * @uxpincontroltype input
    * The name of the icon font ligature.
    */
   children: PropTypes.node,
@@ -37,7 +36,7 @@ Icon.propTypes = {
   /**
    * The fontSize applied to the icon. Defaults to 24px, but can be configure to inherit font size.
    */
-  fontSize: PropTypes.oneOf(["inherit", "default", "small", "large"])
+  fontSize: PropTypes.oneOf(["inherit", "default"])
 };
 
 export { Icon as default };
