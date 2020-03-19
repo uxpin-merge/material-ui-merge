@@ -103,7 +103,9 @@ module.exports = {
         name: "HTML Wrappers and Spacing",
         include: ["src/Image/Image.js", "src/CssBaseline/CssBaseline.js"]
       }
-    ]
+    ],
+    wrapper: 'src/Wrapper/UXPinWrapper.js',
+    webpackConfig: 'webpack.config.js',
   },
   name: "Material Design UI"
 };
