@@ -109,15 +109,3 @@ module.exports = {
   },
   name: "Material Design UI"
 };
-
-/**
- * Currently not supported:
- * 'src/Drawer/Drawer.js',
- * 'src/Menu/Menu.js',
- * 'src/ExpansionPanel/ExpansionPanel.js',
- * 'src/ExpansionPanelActions/ExpansionPanelActions.js',
- * 'src/ExpansionPanelDetails/ExpansionPanelDetails.js',
- * 'src/ExpansionPanelSummary/ExpansionPanelSummary.js'
- * 'src/Snackbar/Snackbar.js'
- * 'src/SnackbarContent/SnackbarContent.js'
- */
