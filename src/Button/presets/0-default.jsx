@@ -6,7 +6,7 @@ export default (
     uxpId="action1" 
     size="large" 
     variant="contained" 
-    color="primary" 
+    color="secondary" 
     fullWidth>
     Sign Up
   </Button>
