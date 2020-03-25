@@ -16,7 +16,6 @@ jobs:
             if [[ "${CIRCLE_BRANCH}" == "master" ]]
             then
             npm run push  
-            npm run pushUxpin
             else
             echo "On '$CIRCLE_BRANCH' branch - not pushing"
             fi
