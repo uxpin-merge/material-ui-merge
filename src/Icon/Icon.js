@@ -13,9 +13,12 @@ Icon.propTypes = {
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
+
+  /** @uxpinignoreprop  */
   className: PropTypes.string,
 
   /**
@@ -33,7 +36,7 @@ Icon.propTypes = {
   /**
    * The fontSize applied to the icon. Defaults to 24px, but can be configure to inherit font size.
    */
-  fontSize: PropTypes.oneOf(["inherit", "default", "small", "large"])
+  fontSize: PropTypes.oneOf(["inherit", "default"])
 };
 
 export { Icon as default };

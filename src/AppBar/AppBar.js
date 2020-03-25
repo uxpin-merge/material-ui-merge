@@ -13,10 +13,12 @@ function AppBar(props) {
 AppBar.propTypes = {
   /**
    * The content of the component.
+   * @uxpinignoreprop 
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
@@ -24,6 +26,7 @@ AppBar.propTypes = {
 
   /**
    * @ignore
+   * @uxpinignoreprop 
    */
   className: PropTypes.string,
 

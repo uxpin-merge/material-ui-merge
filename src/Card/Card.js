@@ -11,12 +11,17 @@ function Card(props) {
 }
 
 Card.propTypes = {
+
+  /** @uxpinignoreprop */
   children: PropTypes.node,
-    /**
+  
+  /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
   /**
+   * 
    * If `true`, the card will use raised styling.
    */
   raised: PropTypes.bool

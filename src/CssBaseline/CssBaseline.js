@@ -8,11 +8,13 @@ function CssBaseline(props) {
 
 CssBaseline.propTypes = {
   /**
+   * @uxpinignoreprop 
    * You can wrap a node.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   classes: PropTypes.object

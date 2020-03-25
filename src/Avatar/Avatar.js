@@ -188,6 +188,7 @@ Avatar.propTypes = {
   alt: PropTypes.string,
 
   /**
+   * @uxpinignoreprop 
    * Used to render icon or text elements inside the Avatar.
    * `src` and `alt` props will not be used and no `img` will
    * be rendered by default.
@@ -197,6 +198,7 @@ Avatar.propTypes = {
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,

@@ -8,6 +8,7 @@ function CircularProgress(props) {
 
 CircularProgress.propTypes = {
 /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
@@ -15,6 +16,7 @@ CircularProgress.propTypes = {
 
   /**
    * @ignore
+   * @uxpinignoreprop 
    */
   className: PropTypes.string,
 
@@ -36,6 +38,7 @@ CircularProgress.propTypes = {
 
   /**
    * @ignore
+   * @uxpinignoreprop 
    */
   style: PropTypes.object,
 

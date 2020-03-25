@@ -25,7 +25,6 @@ module.exports = {
           "src/Tabs/Tabs.js",
           "src/TabsContainer/TabsContainer.js",
           "src/TabsContainer/TabContent/TabContent.js",
-          "src/Drawer/Drawer.js"
         ]
       },
       {
@@ -104,18 +103,9 @@ module.exports = {
         name: "HTML Wrappers and Spacing",
         include: ["src/Image/Image.js", "src/CssBaseline/CssBaseline.js"]
       }
-    ]
+    ],
+    wrapper: 'src/Wrapper/UXPinWrapper.js',
+    webpackConfig: 'webpack.config.js',
   },
   name: "Material Design UI"
 };
-
-/**
- * Currently not supported:
- * 'src/Menu/Menu.js',
- * 'src/ExpansionPanel/ExpansionPanel.js',
- * 'src/ExpansionPanelActions/ExpansionPanelActions.js',
- * 'src/ExpansionPanelDetails/ExpansionPanelDetails.js',
- * 'src/ExpansionPanelSummary/ExpansionPanelSummary.js'
- * 'src/Snackbar/Snackbar.js'
- * 'src/SnackbarContent/SnackbarContent.js'
- */

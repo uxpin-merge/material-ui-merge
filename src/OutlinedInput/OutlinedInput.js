@@ -8,6 +8,7 @@ function OutlinedInput(props) {
 
 OutlinedInput.propTypes = {
   /**
+   * @uxpinignoreprop 
    * This property helps users to fill forms faster, especially on mobile devices.
    * The name can be confusing, as it's more like an autofill.
    * You can learn more about it here:
@@ -21,16 +22,19 @@ OutlinedInput.propTypes = {
   autoFocus: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object.isRequired,
 
   /**
+   * @uxpinignoreprop 
    * The CSS class name of the wrapper element.
    */
   className: PropTypes.string,
 
   /**
+   * @uxpinpropname Value
    * The default input value, useful when not controlling the component.
    */
   defaultValue: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object, PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object]))]),
@@ -41,6 +45,7 @@ OutlinedInput.propTypes = {
   disabled: PropTypes.bool,
 
   /**
+   * @uxpincontroltype input
    * End `InputAdornment` for this component.
    */
   endAdornment: PropTypes.node,
@@ -57,22 +62,26 @@ OutlinedInput.propTypes = {
   fullWidth: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop 
    * The id of the `input` element.
    */
   id: PropTypes.string,
 
   /**
+   * @uxpinignoreprop 
    * The component used for the native input.
    * Either a string to use a DOM element or a component.
    */
   inputComponent: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Attributes applied to the `input` element.
    */
   inputProps: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * Use that property to pass a ref callback to the native input component.
    */
   inputRef: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
@@ -138,16 +147,19 @@ OutlinedInput.propTypes = {
   rowsMax: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 
   /**
+   * @uxpincontroltype input
    * Start `InputAdornment` for this component.
    */
   startAdornment: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Type of the input element. It should be a valid HTML5 input type.
    */
   type: PropTypes.string,
 
   /**
+   * @uxpinignoreprop 
    * The input value, required for a controlled component.
    */
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object, PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object]))])

@@ -8,9 +8,12 @@ function CardMedia(props) {
 
 CardMedia.propTypes = {
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
+
+  /** @uxpinignoreprop  */
   component: PropTypes.string,
   /**
    * Image to be displayed as a background image.

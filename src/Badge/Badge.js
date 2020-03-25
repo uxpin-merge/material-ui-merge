@@ -13,11 +13,13 @@ Badge.propTypes = {
   badgeContent: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * The badge will be added relative to this node.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,

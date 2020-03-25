@@ -12,6 +12,7 @@ Fab.propTypes = {
    */
   onClick: PropTypes.func,
   /**
+   * @uxpinignoreprop 
    * The content of the button.
    */
   children: PropTypes.node,
@@ -20,12 +21,14 @@ Fab.propTypes = {
    */
   label: PropTypes.string,
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   className: PropTypes.string,
@@ -36,6 +39,7 @@ Fab.propTypes = {
   color: PropTypes.oneOf(['default', 'inherit', 'primary', 'secondary']),
 
   /**
+   * @uxpinignoreprop 
    * The component used for the root node.
    * Either a string to use a DOM element or a component.
    */
@@ -58,11 +62,13 @@ Fab.propTypes = {
   disableRipple: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   focusVisibleClassName: PropTypes.string,
 
   /**
+   * @uxpinignoreprop 
    * The URL to link to when the button is clicked.
    * If defined, an `a` element will be used as the root node.
    */
@@ -75,6 +81,7 @@ Fab.propTypes = {
   size: PropTypes.oneOf(['small', 'medium', 'large']),
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   type: PropTypes.string,

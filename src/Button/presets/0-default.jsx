@@ -4,9 +4,9 @@ import Button from "../Button";
 export default (
   <Button 
     uxpId="action1" 
-    size="small" 
+    size="large" 
     variant="contained" 
-    color="primary" 
+    color="secondary" 
     fullWidth>
     Sign Up
   </Button>

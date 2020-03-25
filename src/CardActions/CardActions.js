@@ -12,17 +12,19 @@ function CardActions(props) {
 
 CardActions.propTypes = {
   /**
+   * @uxpinignoreprop 
    * The content of the component.
    */
   children: PropTypes.node,
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
   /**
    * If `true`, the card actions do not have additional margin.
    */
-  disableActionSpacing: PropTypes.bool
+  disableSpacing: PropTypes.bool
 };
 
 export { CardActions as default };

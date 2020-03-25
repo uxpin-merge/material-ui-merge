@@ -7,12 +7,16 @@ function MenuList(props) {
 }
 
 MenuList.propTypes = {
-    /**
+  /**
+   * /**
+   * @uxpinignoreprop 
    * MenuList contents, normally `MenuListItem`s.
    */
   children: PropTypes.node,
 
   /**
+   * /**
+   * @uxpinignoreprop 
    * @ignore
    */
   className: PropTypes.string,

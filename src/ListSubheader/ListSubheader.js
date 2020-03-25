@@ -13,12 +13,14 @@ ListSubheader.propTypes = {
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   className: PropTypes.string,
@@ -29,6 +31,7 @@ ListSubheader.propTypes = {
   color: PropTypes.oneOf(['default', 'primary', 'inherit']),
 
   /**
+   * @uxpinignoreprop 
    * The component used for the root node.
    * Either a string to use a DOM element or a component.
    */

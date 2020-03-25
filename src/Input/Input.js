@@ -8,6 +8,7 @@ function Input(props) {
 
 Input.propTypes = {
   /**
+   * @uxpinignoreprop 
    * This property helps users to fill forms faster, especially on mobile devices.
    * The name can be confusing, as it's more like an autofill.
    * You can learn more about it here:
@@ -21,11 +22,13 @@ Input.propTypes = {
   autoFocus: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object.isRequired,
 
   /**
+   * @uxpinignoreprop 
    * The CSS class name of the wrapper element.
    */
   className: PropTypes.string,
@@ -62,17 +65,20 @@ Input.propTypes = {
   id: PropTypes.string,
 
   /**
+   * @uxpinignoreprop 
    * The component used for the native input.
    * Either a string to use a DOM element or a component.
    */
   inputComponent: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Attributes applied to the `input` element.
    */
   inputProps: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * Use that property to pass a ref callback to the native input component.
    */
   inputRef: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
@@ -143,6 +149,7 @@ Input.propTypes = {
   startAdornment: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Type of the input element. It should be a valid HTML5 input type.
    */
   type: PropTypes.string,

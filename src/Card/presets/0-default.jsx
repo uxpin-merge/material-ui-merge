@@ -20,7 +20,7 @@ export default (
     />
     <CardMedia uxpId="1.2"
       image="https://www.platingsandpairings.com/wp-content/uploads/2016/01/Paella-1-Square.jpg"
-      style={{"height": "100px"}}
+      style={{"height": "200px"}}
     />
     <CardContent uxpId="1.3">
       <Typography component="p" uxpId="1.3.1">

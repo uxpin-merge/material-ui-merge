@@ -1,3 +1,5 @@
+
+version: 2
 jobs:
   build:
     docker:
@@ -6,8 +8,15 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Install dependencies"
+          name: 'Install dependencies'
           command: npm install
       - run:
-          name: 'Push to UXPin'
-          command: ./node_modules/@uxpin/merge-cli/bin/uxpin-merge push --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js
+          name: 'Push to UXPin if branch is master'
+          command: |
+            if [[ "${CIRCLE_BRANCH}" == "master" ]]
+            then
+            npm run push  
+            npm run pushUxpin
+            else
+            echo "On '$CIRCLE_BRANCH' branch - not pushing"
+            fi

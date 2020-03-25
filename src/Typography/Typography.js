@@ -24,6 +24,7 @@ Typography.propTypes = {
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
@@ -32,7 +33,7 @@ Typography.propTypes = {
    * The color of the component. It supports those theme colors that make sense for this component.
    */
   color: PropTypes.oneOf([
-    "default",
+    "initial",
     "error",
     "inherit",
     "primary",
@@ -41,12 +42,18 @@ Typography.propTypes = {
     "textSecondary"
   ]),
 
+ /**
+   * Controls the display type
+   */
+  display: PropTypes.oneOf(['initial', 'block', 'inline']),
+
   /**
    * If `true`, the text will have a bottom margin.
    */
   gutterBottom: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop
    * We are empirically mapping the variant property to a range of different DOM element types.
    * For instance, subtitle1 to `<h6>`.
    * If you wish to change that mapping, you can provide your own.
@@ -90,13 +97,6 @@ Typography.propTypes = {
     "overline",
     "srOnly",
     "inherit",
-    "display4",
-    "display3",
-    "display2",
-    "display1",
-    "headline",
-    "title",
-    "subheading"
   ])
 };
 

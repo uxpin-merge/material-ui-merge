@@ -13,17 +13,20 @@ Drawer.propTypes = {
   anchor: PropTypes.oneOf(['left', 'top', 'right', 'bottom']),
 
   /**
+   * @uxpinignoreprop 
    * The contents of the drawer.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   className: PropTypes.string,
@@ -61,6 +64,7 @@ Drawer.propTypes = {
   SlideProps: PropTypes.object,
 
   /**
+   * @uxpinignoreprop 
    * @ignore
    */
   theme: PropTypes.object,

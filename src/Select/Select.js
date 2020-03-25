@@ -33,12 +33,14 @@ Select.propTypes = {
   autoWidth: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop
    * The option elements to populate the select with.
    * Can be some `MenuItem` when `native` is false and `option` when `native` is true.
    */
   children: PropTypes.node,
 
   /**
+   * @uxpinignoreprop
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
@@ -55,16 +57,19 @@ Select.propTypes = {
   IconComponent: PropTypes.node,
 
   /**
+   * @uxpinignoreprop
    * An `Input` element; does not have to be a material-ui specific `Input`.
    */
   input: PropTypes.node,
 
   /**
+   * @uxpinignoreprop
    * Attributes applied to the `input` element.
    * When `native` is `true`, the attributes are applied on the `select` element.
    */
   inputProps: PropTypes.object,
 
+  /** @uxpinignoreprop */
   MenuProps: PropTypes.object,
 
   /**
@@ -101,12 +106,14 @@ Select.propTypes = {
   open: PropTypes.bool,
 
   /**
+   * @uxpinignoreprop
    * Render the selected value.
    * You can only use it when the `native` property is `false` (default).
    */
   renderValue: PropTypes.func,
 
   /**
+   * @uxpinignoreprop
    * Properties applied to the clickable div element.
    */
   SelectDisplayProps: PropTypes.object,

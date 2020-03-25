@@ -13,6 +13,7 @@ function CardContent(props) {
 CardContent.propTypes = {
   children: PropTypes.node,
   /**
+   * @uxpinignoreprop 
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
