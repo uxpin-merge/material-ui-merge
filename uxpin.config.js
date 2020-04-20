@@ -3,7 +3,10 @@ module.exports = {
     categories: [
       {
         name: "General",
-        include: ["src/Icon/Icon.js", "src/Typography/Typography.js"]
+        include: [
+          "src/Icon/Icon.js", 
+          "src/Typography/Typography.js"
+        ]
       },
       {
         name: "Actions",
@@ -101,7 +104,10 @@ module.exports = {
       },
       {
         name: "HTML Wrappers and Spacing",
-        include: ["src/Image/Image.js", "src/CssBaseline/CssBaseline.js"]
+        include: [
+          "src/Image/Image.js", 
+          "src/CssBaseline/CssBaseline.js"
+        ]
       }
     ],
     wrapper: 'src/Wrapper/UXPinWrapper.js',

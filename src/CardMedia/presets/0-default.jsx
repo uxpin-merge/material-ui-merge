@@ -2,14 +2,14 @@ import * as React from "react";
 import CardMedia from "../CardMedia";
 
 const style = {
-  "height": "100px",
+  "height": "200px",
   "objectFit": "cover"
 }
 
 export default (
   <CardMedia uxpId="1"
     component="img"
-    src="https://www.platingsandpairings.com/wp-content/uploads/2016/01/Paella-1-Square.jpg"
+    src="https://mspoweruser.com/wp-content/uploads/2019/11/tesla-cybertruck-black.jpg"
     style={style}
   />
 );
