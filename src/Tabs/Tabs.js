@@ -129,6 +129,7 @@ Tabs.propTypes = {
   /**
    * The value of the currently selected `Tabs`.
    * If you don't want any selected `Tabs`, you can set this property to `false`.
+   * @uxpinbind onChange 1
    */
   value: PropTypes.number,
 
