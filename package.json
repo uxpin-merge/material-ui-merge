@@ -10,7 +10,7 @@
     "start": "uxpin-merge --disable-tunneling"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.2",
