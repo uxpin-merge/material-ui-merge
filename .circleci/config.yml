@@ -11,5 +11,5 @@ jobs:
           name: 'Install dependencies'
           command: npm install
       - run:
-          name: 'Push to UXPin if branch is master'
+          name: 'Push to UXPin'
           command: npm run push
