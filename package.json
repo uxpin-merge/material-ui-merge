@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "@material-ui/styles": "^4.0.0-rc.0",
-    "request": "^2.88.0"
+    "request": "^2.88.2"
   }
 }
