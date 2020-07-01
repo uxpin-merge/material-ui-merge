@@ -2,29 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import TabsM from "@material-ui/core/Tabs";
 
-export default class Tabs extends React.Component {
-  constructor(props) {
-    super()
-
-    this.state = {
-      "value": 0,
-      "userAction": false
-    }
-  }
-
-  componentDidMount() {
-    if(this.state.userAction === false) {
-      this.setState({"value": this.props.defaultValue});
-    }
-  }
-
-  handleChange(event, value) {
-      this.setState({ "value": value, "userAction": true })
-  }
-
-  render() {
-    return <TabsM {...this.props} value={this.state.value} onChange={(event, value) => this.handleChange(event, value)}>{this.props.children}</TabsM>;
-  }
+function Tabs(props) {
+  return <TabsM {...props} />;
 }
 
 Tabs.propTypes = {
@@ -129,6 +108,7 @@ Tabs.propTypes = {
   /**
    * The value of the currently selected `Tabs`.
    * If you don't want any selected `Tabs`, you can set this property to `false`.
+   * @uxpinbind onChange 1
    */
   value: PropTypes.number,
 
@@ -147,3 +127,5 @@ Tabs.propTypes = {
    */
   variant: PropTypes.oneOf(['standard', 'scrollable', 'fullWidth'])
 };
+
+export { Tabs as default };
