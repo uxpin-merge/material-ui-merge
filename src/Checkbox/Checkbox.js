@@ -13,13 +13,13 @@ Checkbox.propTypes = {
   checked: PropTypes.bool,
 
   /**
-   * @uxpinignoreprop 
+   * @uxpinignoreprop
    * The icon to display when the component is checked.
    */
   checkedIcon: PropTypes.node,
 
   /**
-   * @uxpinignoreprop 
+   * @uxpinignoreprop
    * Override or extend the styles applied to the component.
    */
   classes: PropTypes.object,
@@ -40,13 +40,13 @@ Checkbox.propTypes = {
   disableRipple: PropTypes.bool,
 
   /**
-   * @uxpinignoreprop 
+   * @uxpinignoreprop
    * The icon to display when the component is unchecked.
    */
   icon: PropTypes.node,
 
   /**
-   * @uxpinignoreprop 
+   * @uxpinignoreprop
    * The id of the `input` element.
    */
   id: PropTypes.string,
@@ -60,19 +60,19 @@ Checkbox.propTypes = {
   indeterminate: PropTypes.bool,
 
   /**
-   * @uxpinignoreprop 
+   * @uxpinignoreprop
    * The icon to display when the component is indeterminate.
    */
   indeterminateIcon: PropTypes.node,
 
   /**
-   * @uxpinignoreprop 
+   * @uxpinignoreprop
    * Properties applied to the `input` element.
    */
   inputProps: PropTypes.object,
 
   /**
-   * @uxpinignoreprop 
+   * @uxpinignoreprop
    * Use that property to pass a ref callback to the native input component.
    */
   inputRef: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
@@ -83,7 +83,7 @@ Checkbox.propTypes = {
   onChange: PropTypes.func,
 
   /**
-   * @uxpinignoreprop 
+   * @uxpinignoreprop
    * The input component property `type`.
    */
   type: PropTypes.string,
@@ -92,6 +92,12 @@ Checkbox.propTypes = {
    * The value of the component.
    */
   value: PropTypes.string
+};
+
+Checkbox.defaultProps = {
+  // NOTE: Checked must be controlled state from the outset, otherwise changing state in the app will trigger an error
+  // see: https://fb.me/react-controlled-components
+  checked: false,
 };
 
 export { Checkbox as default };
