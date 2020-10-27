@@ -2,9 +2,18 @@ module.exports = {
   components: {
     categories: [
       {
+        name: "Layout",
+        include: [
+          "src/Grid/Grid.js",
+          "src/GridList/GridList.js",
+          "src/GridListTile/GridListTile.js",
+          "src/GridListTileBar/GridListTileBar.js"
+        ]
+      },
+      {
         name: "General",
         include: [
-          "src/Icon/Icon.js", 
+          "src/Icon/Icon.js",
           "src/Typography/Typography.js"
         ]
       },
@@ -28,15 +37,6 @@ module.exports = {
           "src/Tabs/Tabs.js",
           "src/TabsContainer/TabsContainer.js",
           "src/TabsContainer/TabContent/TabContent.js",
-        ]
-      },
-      {
-        name: "Layout",
-        include: [
-          "src/Grid/Grid.js",
-          "src/GridList/GridList.js",
-          "src/GridListTile/GridListTile.js",
-          "src/GridListTileBar/GridListTileBar.js"
         ]
       },
       {
@@ -105,7 +105,7 @@ module.exports = {
       {
         name: "HTML Wrappers and Spacing",
         include: [
-          "src/Image/Image.js", 
+          "src/Image/Image.js",
           "src/CssBaseline/CssBaseline.js"
         ]
       }
