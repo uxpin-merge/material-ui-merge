@@ -1,6 +1,6 @@
 import * as React from "react";
 import Grid from "../Grid";
-import Paper from "../../Paper/Paper";
+import Button from "../../Button/Button";
 
 export default (
   <Grid container spacing={24} uxpId="1">
