@@ -11,7 +11,7 @@ export default (
         variant="outlined"
         color="primary"
         fullWidth>
-        3 columns
+        3 cols
       </Button>
     </Grid>
     <Grid item xs={3} uxpId="1.2">
@@ -21,7 +21,7 @@ export default (
         variant="outlined"
         color="primary"
         fullWidth>
-        3 columns
+        3 cols
       </Button>
     </Grid>
     <Grid item xs={3} uxpId="1.3">
@@ -31,7 +31,7 @@ export default (
         variant="outlined"
         color="primary"
         fullWidth>
-        3 columns
+        3 cols
       </Button>
     </Grid>
     <Grid item xs={3} uxpId="1.4">
@@ -41,7 +41,7 @@ export default (
         variant="outlined"
         color="primary"
         fullWidth>
-        3 columns
+        3 cols
       </Button>
     </Grid>
     <Grid item xs={8} uxpId="1.5">
@@ -51,7 +51,7 @@ export default (
         variant="outlined"
         color="primary"
         fullWidth>
-        8 columns
+        8 cols
       </Button>
     </Grid>
     <Grid item xs={4} uxpId="1.6">
@@ -61,7 +61,7 @@ export default (
         variant="outlined"
         color="primary"
         fullWidth>
-        4 columns
+        4 cols
       </Button>
     </Grid>
   </Grid>
