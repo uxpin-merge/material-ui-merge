@@ -34,26 +34,26 @@ Grid.propTypes = {
   ]),
 
   /**
-   * @uxpinignoreprop 
+   * @uxpinignoreprop
    * The content of the component.
    */
   children: PropTypes.node,
 
   /**
-   * @uxpinignoreprop 
+   * @uxpinignoreprop
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
    */
   classes: PropTypes.object,
 
   /**
-   * @uxpinignoreprop 
+   * @uxpinignoreprop
    * @ignore
    */
   className: PropTypes.string,
 
   /**
-   * @uxpinignoreprop 
+   * @uxpinignoreprop
    * The component used for the root node.
    * Either a string to use a DOM element or a component.
    */
@@ -127,13 +127,15 @@ Grid.propTypes = {
 
   /**
    * Defines the number of grids the component is going to use.
-   * It's applied for the `xl` breakpoint and wider screens.  1-12, true, false, or auto.
+   * It's applied for the `columns (xl)` breakpoint and wider screens.  1-12, true, false, or auto.
+   * @uxpinpropname  columns (xl)
    */
   xl: PropTypes.oneOfType([PropTypes.number, PropTypes.bool, PropTypes.string]),
 
   /**
    * Defines the number of grids the component is going to use.
    * It's applied for all the screen sizes with the lowest priority. 1-12, true, false, or auto.
+   * @uxpinpropname  columns (xs)
    */
   xs: PropTypes.oneOfType([PropTypes.number, PropTypes.bool, PropTypes.string]),
 
