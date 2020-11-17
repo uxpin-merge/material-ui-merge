@@ -7,7 +7,8 @@ module.exports = {
           "src/Grid/Grid.js",
           "src/GridList/GridList.js",
           "src/GridListTile/GridListTile.js",
-          "src/GridListTileBar/GridListTileBar.js"
+          "src/GridListTileBar/GridListTileBar.js",
+          "src/MuiTheme/MuiTheme.js",
         ]
       },
       {
