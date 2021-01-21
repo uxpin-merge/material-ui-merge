@@ -9,6 +9,7 @@ function Checkbox(props) {
 Checkbox.propTypes = {
   /**
    * If `true`, the component is checked.
+   * @uxpinbind onChange 1
    */
   checked: PropTypes.bool,
 
@@ -98,6 +99,7 @@ Checkbox.defaultProps = {
   // NOTE: Checked must be controlled state from the outset, otherwise changing state in the app will trigger an error
   // see: https://fb.me/react-controlled-components
   checked: false,
+  onChange: () => undefined
 };
 
 export { Checkbox as default };
